@@ -2,3 +2,5 @@ node_modules
 dist
 /src/styles/main.css
 bower_components
+/.publish
+/.sass-cache
