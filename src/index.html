@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7 ie6"> <![endif]-->
+<!--[if IE 7]>	<html class="no-js  lt-ie10 lt-ie9 lt-ie8 ie7"> <![endif]-->
+<!--[if IE 8]>	<html class="no-js lt-ie10 lt-ie9 ie8"> <![endif]-->
+<!--[if IE 9]>	<html class="no-js lt-ie10 ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <script></script>
+    <meta charset="utf-8" />
+    <title>MELI - Widget v2</title>
+
+    <!-- build:css main.css -->
+    <link rel="stylesheet" href="bower_components/chico/dist/ui/chico.min.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <!-- endbuild -->
+</head>
+<body>
+
+    <div class="widget" itemscope itemtype="http://schema.org/Product">
+        
+        <!-- widget header -->
+        <header class="widget-header">
+            <h1 class="widget-title" itemprop="name">Ipad Mini Apple 16 Gb Wifi Led 7.9</h1>
+        </header>
+        
+        <!-- product info -->
+        <section class="product">
+            <section class="product-image">
+                <img src="http://lorempixel.com/600/600/technics/7" />
+            </section>
+            <section class="product-info">
+                <article class="product-info__price ch-price">
+                    <strong>
+                        <b itemprop="priceCurrency" content="USD">$</b>
+                        <data itemprop="price" content="4799.99" value="4799.99">4799<sup>99</sup></data>
+                        <link itemprop="availability" href="http://schema.org/InStock" />
+                    </strong>
+                </article>
+
+                <article class="product-qty">
+                    <label>Quantity:</label>
+                    <select><option>1</option></select>
+                </article>
+
+                <article class="product-payments">
+                    <label>Payments:</label>
+                    <select><option>12</option></select>
+                </article>
+
+                <div class="buy">
+                    <input type="button" class="ch-btn ch-btn-large" value="Buy">
+                    <p>MercadoLibre isn't the owner of this product.</p>
+                </div>
+
+                <div class="more-products">
+                    <div class="more-products__carousel ch-carousel">
+                        <ul>
+                            <li><img src="http://lorempixel.com/100/100/technics/1"></li>
+                            <li><img src="http://lorempixel.com/100/100/technics/2"></li>
+                            <li><img src="http://lorempixel.com/100/100/technics/3"></li>
+                            <li><img src="http://lorempixel.com/100/100/technics/4"></li>
+                            <li><img src="http://lorempixel.com/100/100/technics/5"></li>
+                            <li><img src="http://lorempixel.com/100/100/technics/6"></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <hr/>
+
+        <!-- tabs -->
+        <section class="widget-tabs">
+            <div class="tabs">
+                <div class="tab">
+                    <header>Product description</header>
+                    <section itemprop="description"></section>
+                </div>
+                <div class="tab">
+                    <header>Questions</header>
+                    <section>
+                        <div class="message buyer">
+                            <div class="message-label">Buyer</div>
+                            <div class="ch-box-icon ch-box-info">Do you have this one in white?</div>
+                        </div>
+                        <div class="message seller">
+                            <div class="message-label">Seller</div>
+                            <div class="ch-box-icon ch-box-ok">No I don't, I only have black</div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- build:js main.js -->
+    <script src="bower_components/tiny.js/dist/tiny.min.js"></script>
+    <script src="bower_components/chico/dist/ui/chico.min.js"></script>
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+</body>
+</html>

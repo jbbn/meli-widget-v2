@@ -1,0 +1,22 @@
+{
+  "name": "widget-v2",
+  "version": "1.0.0",
+  "description": "Front-end Test - Widget Development v2",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joao BBN <joaobbn@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-csso": "^2.0.0",
+    "gulp-filter": "^5.0.0",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-ruby-sass": "^2.1.1",
+    "gulp-uglify": "^2.0.1",
+    "gulp-useref": "^3.1.2"
+  }
+}

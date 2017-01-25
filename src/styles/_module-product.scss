@@ -1,0 +1,35 @@
+.product {
+    .product-image {
+        float: left;
+        box-sizing: border-box;
+        margin: 0;
+        width: 50%;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .product-info {
+        float: left;
+        box-sizing: border-box;
+        margin: 0;
+        width: 50%;
+        padding-left: 20px;
+        
+        .product-info__price {
+            font-size: 5em;
+            line-height: normal;
+            
+            sup {
+                font-size: 0.6em;
+            }
+        }
+    }
+    
+    .product-qty,
+    .product-payments{
+        margin: 20px 0;
+    }
+}
