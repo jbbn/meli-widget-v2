@@ -42,13 +42,13 @@ gulp.task('copy', function () {
 
 // Clean
 gulp.task('clean', function () {
-    return gulp.src(['dist/*.css', 'dist/*.js'], {
+    return gulp.src(['dist/styles', 'dist/*.js', 'dist/assets'], {
         read: false
     }).pipe(clean());
 });
 
 // Build
-gulp.task('build', ['html']);
+gulp.task('build', ['html', 'copy']);
 
 // Default - clean and build
 gulp.task('default', ['clean'], function () {
