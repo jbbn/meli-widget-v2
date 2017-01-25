@@ -34,6 +34,12 @@ gulp.task('html', ['styles', 'scripts'], function () {
         .pipe(gulp.dest('dist'));
 });
 
+// Copy
+gulp.task('copy', function () {
+    return gulp.src('src/bower_components/chico/dist/assets/**/*')
+        .pipe(gulp.dest('dist/assets'));
+});
+
 // Clean
 gulp.task('clean', function () {
     return gulp.src(['dist/*.css', 'dist/*.js'], {
