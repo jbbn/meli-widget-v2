@@ -61,5 +61,7 @@ gulp.task('watch', function () {
 
 gulp.task('deploy', function() {
   return gulp.src('./dist/**/*')
-    .pipe(ghPages());
+    .pipe(ghPages({
+      remoteUrl: 'git@github.com:jbbn/meli-widget-v2.git'
+  }));
 });
