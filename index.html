@@ -68,13 +68,31 @@
 
         <!-- tabs -->
         <section class="widget-tabs">
-            <div class="tabs">
-                <div class="tab">
-                    <header>Product description</header>
-                    <section itemprop="description"></section>
+            <div class="tabs ch-tabs">
+
+                <!-- #tab1 -->
+                <input type="radio" name="tabs" id="tab1">
+                <label for="tab1" class="ch-tab">
+                    <span>Product Description</span>
+                </label>
+
+                <!-- #tab2 -->
+                <input type="radio" name="tabs" id="tab2" checked>
+                <label for="tab2" class="ch-tab">
+                    <span>Questions</span>
+                </label>
+
+                <!-- #tab-content1 -->
+                <div id="tab-content1" class="tab-content ch-box-lite">
+                    <h3>Product Description</h3>
+                    <p itemprop="description">
+                        CONTENT 1
+                    </p>
                 </div>
-                <div class="tab">
-                    <header>Questions</header>
+
+                <!-- #tab-content2 -->
+                <div id="tab-content2" class="tab-content ch-box-lite">
+                    <h3>Questions</h3>
                     <section>
                         <div class="message buyer">
                             <div class="message-label">Buyer</div>
